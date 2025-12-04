@@ -321,6 +321,18 @@
             margin-bottom: 0.5rem;
         }
 
+        .bio-content {
+            color: #8E193C;
+            font-size: 1rem;
+            font-weight: 500;
+            margin-top: 1.5rem;
+            text-align: center;
+            line-height: 1.6;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
         .staff-category {
             margin: 20px auto;
             max-width: 1000px;
@@ -737,17 +749,18 @@
                         <div class="bio-tab">
                             <strong>Occupation:</strong> Studying (INF)
                         </div>
-                        <div class="bio-staff-section">
-                            <h3 class="bio-staff-title"><i class="fa-solid fa-user-clock"></i> CURRENTLY</h3>
-                            <div class="bio-staff-grid"></div>
-                        </div>
-
-                        <div class="bio-links-section">
-                            <h3 class="bio-staff-title"><i class="fa-solid fa-link"></i> LINKS</h3>
-                            <div class="bio-links-grid"></div>
-                        </div>
                     </div>
-                    <div class="bio-details" id="bioDetailsContent">
+                    
+                    <div class="bio-content" id="bioDetailsContent"></div>
+
+                    <div class="bio-staff-section">
+                        <h3 class="bio-staff-title"><i class="fa-solid fa-user-clock"></i> CURRENTLY</h3>
+                        <div class="bio-staff-grid"></div>
+                    </div>
+
+                    <div class="bio-links-section">
+                        <h3 class="bio-staff-title"><i class="fa-solid fa-link"></i> LINKS</h3>
+                        <div class="bio-links-grid"></div>
                     </div>
                 </div>
             </section>
@@ -765,9 +778,9 @@
         const CONFIG = {
             profile: {
                 name: "Filmografo",
-                avatar: "https://i.imgur.com/rsDsoOq.jpeg",
+                avatar: "https://i.imgur.com/ND5KxaY.jpeg",
                 subtitle: "DFIR & PC Checker",
-                bioContent: "",
+                bioContent: '"If there is a gun hanging on the wall in the first act, it must fire in the last"',
             },
             staffExperience: {
                 discord: [
